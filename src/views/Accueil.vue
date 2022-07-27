@@ -1,8 +1,7 @@
 <template>
-    <div>
+    <div class="accueil">        
         <navbarOff />
             <img class="Headerimg" src="../assets/Khmer/fondAccueil.jpg" alt="bgaccueil">
-            <h1 class="Titre">Bienvenu sur Ittadakimasu !</h1>
     </div>
 </template>
 
@@ -18,7 +17,8 @@ export default {
 </script>
 
 <style scoped>
-#Accueil {
+.accueil {
+    position: relative;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,11 +28,6 @@ export default {
     position: relative;
     width: 100%;
     height: 100vh;
-    z-index: -1
-;
-}
-
-.Titre {
-    position: relative;
+    z-index: -1;
 }
 </style>
